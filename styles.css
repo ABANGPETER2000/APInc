@@ -1,0 +1,574 @@
+#bannerCarousel .carousel-indicators button {
+  margin-top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+ }
+
+#bannerCarousel .carousel-indicators > button:not(:last-child){
+  margin-right: 20px;
+}
+
+#bannerCarousel .carousel-indicators{
+    position: absolute;
+}
+
+
+#bannerCarousel {
+	height:610px;
+}
+
+#bannerCarousel .carousel-inner{
+	height:610px;
+}
+
+#bannerCarousel .carousel-item{
+  width: 100%; height: 100%;
+}
+
+.carousel .one {
+  background: url(Images/Banner61.png);
+  background-size: cover;
+  background-position: center;
+}
+.carousel .two {
+  background: url(Images/Banner41.png);
+  background-size: cover;
+  background-position: center;
+}
+.carousel .three {
+  background: url(Images/Banner21.png);
+  background-size: cover;
+  background-position: center;
+}
+.carousel .active.left {
+  left:0;
+  opacity:0;
+  z-index:2;
+}
+
+.hero{
+  color: white;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.carousel-caption{
+  position: relative;
+  z-index: 1;
+  left: 1%;
+  margin-top: 30%;
+  padding: 0 8%;
+  /* right: 10%;
+  bottom: 7%; */
+}
+
+.hero-text {
+  font-size: 55px;
+  letter-spacing: 3.5px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  /* word-wrap: break-word; */
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+.hero-text-lower{
+  letter-spacing: 3px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  word-wrap: break-word;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.mobile{
+  font-size: 15px;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  line-height: 1.2;
+}
+
+.dropup{
+  margin-top: 10px;
+  margin-left: 93%;
+  z-index: 1;
+  /* padding-right: 50px; */
+}
+
+.shade, .shade:hover, .shade:active, .shade:visited{
+  background-color: #F5C947 !important;
+  color: black !important;
+}
+/*
+.dropup-btn{
+  width: 60px;
+  height: 60px;
+  margin-top: -700px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  transition: none !important;
+} */
+
+.modal-btn{
+  width: 60px;
+  height: 60px;
+  /* margin-top: -700px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  transition: none !important;
+  background-color: #F5C947 !important;
+  color: black !important;
+}
+
+.el{
+    position: fixed;
+    margin-top: -100px;
+    padding-right: 20px;
+}
+
+.el .dropdown-menu{
+  padding-top: 0px;
+}
+
+.dropdown-menu {
+  /* width: 380px;
+  max-height: 500px; */
+  overflow-y: scroll;
+  /* width: 100vw; */
+  width: 400px;
+  height: 500px;
+}
+
+.modal-header{
+  background-color: #F5C947;
+  padding: 16px 24px 40px;
+  position: relative;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.25;
+  overflow-wrap: break-word;
+  letter-spacing: 2px;
+}
+.modal-backdrop {
+    z-index: -1;
+}
+.add-space{
+  background-color: rgba(245, 201, 71, 0.3);
+  padding-bottom: 10px;
+}
+
+.dropup-caption{
+  padding: 12px 15px;
+  font-size: 16px;
+  background-color: rgba(245, 201, 71, 0.3);
+  font-weight: 400;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  position: relative;
+  margin-top: -25px;
+  z-index: 2;
+}
+
+.dropup-lower{
+  padding: 14px 24px;
+
+}
+
+.dropup-textbox{
+  height: 150px;
+}
+
+.form-control{
+  box-shadow:none !important;
+}
+
+.form-floating{
+  padding-bottom: 30px;
+}
+
+.form-control:hover {
+  background-color: #F6F6F6;
+}
+
+.form-floating > input:not(:focus):placeholder-shown + label {
+     background: transparent;
+}
+
+.form-floating > input + label:after {
+    background: transparent !important;
+}
+.send-btn{
+  box-shadow: none !important;
+  border-radius: 48px;
+  border-width: 2px;
+  color: black;
+  border-color: black;
+  min-height: 56px;
+  padding: 8px 40px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Libre Baskerville", Georgia, serif;
+}
+
+.send-btn:hover{
+  background-color: black;
+  border-color: black;
+}
+
+.submit-div{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#mission{
+  color: rgb(22, 22, 22);
+}
+
+.mission-header{
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.mission-subheader{
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.mission-statement{
+  text-align: center;
+  display: flex;
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.mission-column1{
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.mission-column2{
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+.mission-statement img{
+  width: 100%;
+}
+
+#craftCarousel{
+  width: 90%;
+  margin: auto;
+}
+
+.carousel-indicators > .active img {
+   border: solid 2px;
+}
+
+.carousel-control-prev{
+  width: 7%;
+  height: 7%;
+  margin: auto;
+  background: black;
+}
+
+.carousel-control-next{
+  width: 7%;
+  height: 7%;
+  margin: auto;
+  background: black;
+}
+
+#craft{
+  background-color: #F5C947;
+}
+
+.craft-header{
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+#review{
+  background-image: url('Images/Banner21.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+  margin-top: -70px;
+}
+
+.review-text{
+  font-weight: 400;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  text-align: center;
+  color: white;
+}
+
+.review-header{
+  font-size: 38px;
+  letter-spacing: 2px;
+  line-height: 1.25;
+  word-wrap: break-word;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  padding-bottom: 50px;
+}
+
+.review-body{
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  background: rgb(0, 0, 0,.3);
+  width: 50%;
+  margin: auto;
+  padding: 15px 0 15px;
+}
+
+#about .container-fluid{
+  padding: 3% 10%;
+}
+
+.about-text{
+  text-align: center;
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.about-header{
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.about-subheader{
+  margin-bottom: 24px;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.about-column1{
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.about-column2{
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.row img{
+  width: 100%;
+}
+
+#services{
+  background-color: #F5C947;
+}
+
+#services .container-fluid{
+  /* padding: 3% 10%; */
+}
+
+.services-header{
+  line-height: 1.25;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+.services-body{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.services-text{
+  padding-top: 120px;
+  padding-bottom: 100px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(22, 22, 22);
+}
+
+#contact{
+  background-color: rgb(22, 22, 22);;
+  color: white;
+}
+
+#contact .container-fluid{
+  padding: 3% 8%;
+}
+
+#contact .form-control{
+  /* padding-bottom: 30px; */
+  background-color: transparent;
+  color: white;
+}
+
+#contact textarea{
+  color: white;
+}
+
+.bottom-send-btn{
+  width: 100%;
+  box-shadow: none !important;
+  border-radius: 48px;
+  border-width: 2px;
+  color: white;
+  border-color: white;
+  min-height: 56px;
+  padding: 8px 40px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Libre Baskerville", Georgia, serif;
+}
+
+.bottom-send-btn:hover{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.contact-header{
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  padding-bottom: 50px;
+}
+
+.contact-subheader{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+}
+
+.contact-subheader1{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 24px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+}
+
+.c1{
+  padding-right: 15px;
+}
+
+.c2{
+  padding-left: 20px;
+}
+
+.footer{
+  text-align: center;
+  font-size: 11px;
+}
+
+.footer a{
+  color: #F5C947;
+}
+
+#contact .form-control::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+#contact input:focus + label {
+  color: white;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+  background-image: inherit !important;
+}
+
+.tel a{
+  color: #F5C947
+}
+
+.mapBanner{
+  width: 100%;
+}
+
+.Copyright{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+@media (max-width: 767px) {
+    .container-fluid{
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+
+    .dropup{
+      margin-left: 85%;
+    }
+
+    #about .container-fluid{
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+    .services-text  {
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+
+    .carousel-caption{
+      bottom: -2.5rem;
+    }
+    .hero-text {
+      font-size: 45px;
+      letter-spacing: 2px;}
+    }
