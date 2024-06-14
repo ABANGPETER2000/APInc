@@ -26,6 +26,22 @@
   width: 100%; height: 100%;
 }
 
+nav{
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+
+nav .container-fluid{
+  padding: 2px 50px;
+}
+
+.navbar-brand img{
+  max-width: 250px;
+}
+
+.white-section{
+  background-color: #f9f9f9;
+}
+
 .carousel .one {
   background: url(Images/Banner61.png);
   background-size: cover;
@@ -37,7 +53,7 @@
   background-position: center;
 }
 .carousel .three {
-  background: url(Images/Banner21.png);
+  background: url(Images/Banner71.png);
   background-size: cover;
   background-position: center;
 }
@@ -64,8 +80,6 @@
   left: 1%;
   margin-top: 30%;
   padding: 0 8%;
-  /* right: 10%;
-  bottom: 7%; */
 }
 
 .hero-text {
@@ -76,7 +90,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  /* word-wrap: break-word; */
   font-family: 'Libre Baskerville', Georgia, serif;
 }
 
@@ -98,27 +111,17 @@
 .dropup{
   margin-top: 10px;
   margin-left: 93%;
-  z-index: 1;
-  /* padding-right: 50px; */
+  z-index: 100001;
 }
 
 .shade, .shade:hover, .shade:active, .shade:visited{
   background-color: #F5C947 !important;
   color: black !important;
 }
-/*
-.dropup-btn{
-  width: 60px;
-  height: 60px;
-  margin-top: -700px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-  transition: none !important;
-} */
 
 .modal-btn{
   width: 60px;
   height: 60px;
-  /* margin-top: -700px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   transition: none !important;
   background-color: #F5C947 !important;
@@ -135,13 +138,8 @@
   padding-top: 0px;
 }
 
-.dropdown-menu {
-  /* width: 380px;
-  max-height: 500px; */
-  overflow-y: scroll;
-  /* width: 100vw; */
-  width: 400px;
-  height: 500px;
+.modal-content{
+  z-index: 2;
 }
 
 .modal-header{
@@ -157,6 +155,7 @@
 .modal-backdrop {
     z-index: -1;
 }
+
 .add-space{
   background-color: rgba(245, 201, 71, 0.3);
   padding-bottom: 10px;
@@ -176,11 +175,14 @@
 
 .dropup-lower{
   padding: 14px 24px;
-
 }
 
 .dropup-textbox{
   height: 150px;
+}
+
+form{
+  font-family: "Raleway", sans-serif;
 }
 
 .form-control{
@@ -246,19 +248,20 @@
 .mission-subheader{
   letter-spacing: 2px;
   font-size: 22px;
-  font-weight: 400;
-  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
   padding-bottom: 40px;
   padding-top: 20px;
+  text-align: center;
 }
 
 .mission-statement{
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   line-height: 1.8;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
-  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .mission-column1{
@@ -357,9 +360,9 @@
 .about-text{
   text-align: center;
   line-height: 1.8;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
-  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .about-header{
@@ -378,8 +381,8 @@
   line-height: 1.25;
   letter-spacing: 2px;
   font-size: 22px;
-  font-weight: 400;
-  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }
 
 .about-column1{
@@ -400,10 +403,6 @@
   background-color: #F5C947;
 }
 
-#services .container-fluid{
-  /* padding: 3% 10%; */
-}
-
 .services-header{
   line-height: 1.25;
   letter-spacing: 2px;
@@ -417,7 +416,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .services-text{
@@ -439,13 +438,16 @@
 }
 
 #contact .form-control{
-  /* padding-bottom: 30px; */
   background-color: transparent;
   color: white;
 }
 
 #contact textarea{
   color: white;
+}
+
+.cw {
+  font-family: "Raleway", sans-serif;
 }
 
 .bottom-send-btn{
@@ -481,22 +483,22 @@
 }
 
 .contact-subheader{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22px;
   line-height: 1.25;
   letter-spacing: 2px;
   margin-bottom: 24px;
-  font-family: "Source Sans Pro", arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact-subheader1{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22px;
   line-height: 1.25;
   letter-spacing: 2px;
   margin-top: 50px;
   margin-bottom: 24px;
-  font-family: "Source Sans Pro", arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .c1{
@@ -516,13 +518,17 @@
   color: #F5C947;
 }
 
+#contact form{
+  color: #F5C947;
+}
+
 #contact .form-control::placeholder {
   color: white;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 #contact input:focus + label {
-  color: white;
+  color: #F5C947;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid {
