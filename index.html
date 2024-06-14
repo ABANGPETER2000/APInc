@@ -4,15 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Afrik-Naija Production Inc</title>
+    <link rel="icon" type="image/x-icon" href="Images/Afriknaija prodoction inc logo_icon_1.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/b7e3e06c0c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
     <section id="home">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <div class="">
+              <img src="Images/Afriknaija prodoction inc logo_2.png" alt="">
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
 
       <div id="bannerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
           <div class="carousel-indicators">
@@ -22,13 +57,10 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active one">
-              <!-- <img src="Images/Banner61.png" class="d-block w-100" alt="..."> -->
             </div>
             <div class="carousel-item two">
-              <!-- <img src="Images/Banner41.png" class="d-block w-100" alt="..."> -->
             </div>
             <div class="carousel-item three">
-              <!-- <img src="Images/Banner21.png" class="d-block w-100" alt="..."> -->
             </div>
 
             <div class="carousel-caption">
@@ -45,9 +77,6 @@
                 </div>
 
               </div>
-
-
-
 
             </div>
 
@@ -72,7 +101,7 @@
                   <div class="modal-body">
                     <p class="dropup-caption">Hi! Let us know how we can help and we’ll respond shortly.</p>
 
-                    <form action="" method="post" enctype="text/plain" class="px-4 py-3 needs-validation" novalidate>
+                    <form action="https://formsubmit.co/afrik9jashow@gmail.com" method="POST" enctype="text/plain" class="px-4 py-3 needs-validation" novalidate>
                       <div class="form-floating">
                         <input type="name" class="form-control border-0 border-bottom" id="floatingName" placeholder="" required>
                         <label for="floatingName">Name*</label>
@@ -111,56 +140,9 @@
         </div>
       </div>
 
-      <!-- <div class="dropup">
-        <div class="el">
-          <button class="btn btn-secondary rounded-circle border-0 shade dropup-btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-haspopup="true" aria-expanded="false">
-            <i id="btn-img" class="fa-solid fa-message fa-2x"></i>
-          </button>
-          <div class="dropdown-menu rounded-2" aria-labelledby="dropdownMenuButton">
-            <div class="dropup-header rounded-top-2">
-              <span>Afrik-Naija Production Inc</span>
-            </div>
-
-            <p class="dropup-caption">Hi! Let us know how we can help and we’ll respond shortly.</p>
-
-            <form class="px-4 py-3 needs-validation" novalidate>
-              <div class="form-floating">
-                <input type="name" class="form-control border-0 border-bottom" id="floatingName" placeholder="John Doe" required>
-                <label for="floatingName">Name*</label>
-                <div class="invalid-feedback">
-                  Please fill in this required field
-                </div>
-              </div>
-
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control border-0 border-bottom" id="floatingEmail" placeholder="name@example.com" required>
-                <label for="floatingEmail">Email*</label>
-                <div class="invalid-feedback">
-                  Please provide a valid email address.
-                </div>
-
-              </div>
-              <div class="mb-3">
-                <textarea class="form-control dropup-textbox border-0 border-bottom" id="exampleFormControlTextarea1" placeholder="How can we help?*" rows="3" required></textarea>
-                <div class="invalid-feedback">
-                  Please fill in this required field
-                </div>
-              </div>
-
-              <div class="submit-div">
-                <button type="submit" class="btn btn-outline-secondary send-btn">Send</button>
-              </div>
-
-            </form>
-
-          </div>
-        </div>
-
-      </div> -->
-
     </section>
 
-    <section id="mission">
+    <section id="mission" class="white-section">
 
       <div class="container-fluid">
 
@@ -336,7 +318,7 @@
 
     </section>
 
-    <section id="about">
+    <section id="about" class="white-section">
 
       <div class="container-fluid about-text">
 
@@ -454,7 +436,7 @@
             <span>Get a Free Quote!</span>
           </div>
 
-          <form action="" class="py-3 needs-validation" novalidate>
+          <form action="https://formsubmit.co/afrik9jashow@gmail.com" method="POST" class="py-3 needs-validation" novalidate>
             <div class="form-floating">
               <input type="name" class="form-control border-0 border-bottom" id="floatingName" placeholder="">
               <label for="floatingName">Name</label>
@@ -502,7 +484,7 @@
         </div>
 
 
-        <div class="col-lg-6 c2">
+        <div class="col-lg-6 c2 cw">
 
           <div class="contact-subheader">
             <span>Better yet, see us in person!</span>
