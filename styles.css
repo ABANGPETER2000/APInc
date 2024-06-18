@@ -14,11 +14,11 @@
 }
 
 #bannerCarousel {
-	height:100vh;
+	height:610px;
 }
 
 #bannerCarousel .carousel-inner{
-	height:100vh;
+	height:610px;
 }
 
 #bannerCarousel .carousel-item{
@@ -594,4 +594,11 @@ form{
     margin-left: 80%;
   }
 
+  #bannerCarousel {
+  	height:660px;
+  }
+
+  #bannerCarousel .carousel-inner{
+  	height:660px;
+  }
   }
