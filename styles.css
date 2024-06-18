@@ -557,7 +557,7 @@ form{
     }
 
     .dropup{
-      margin-left: 81%;
+      margin-left: 85%;
     }
 
     #about .container-fluid{
@@ -588,6 +588,10 @@ form{
 
   #craft .container-fluid{
     padding: 2px 2px;
+  }
+
+  .dropup{
+    margin-left: 75%;
   }
 
   }
