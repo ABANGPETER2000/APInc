@@ -71,7 +71,7 @@ nav .container-fluid{
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 12%;
 }
 
 .carousel-caption{
@@ -115,7 +115,7 @@ nav .container-fluid{
 }
 
 .shade, .shade:hover, .shade:active, .shade:visited{
-  background-color: #F5C947 !important;
+  background-color: #ffa500 !important;
   color: black !important;
 }
 
@@ -124,7 +124,7 @@ nav .container-fluid{
   height: 60px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   transition: none !important;
-  background-color: #F5C947 !important;
+  background-color: #ffa500 !important;
   color: black !important;
 }
 
@@ -143,7 +143,7 @@ nav .container-fluid{
 }
 
 .modal-header{
-  background-color: #F5C947;
+  background-color: #ffa500;
   padding: 16px 24px 40px;
   position: relative;
   font-weight: 400;
@@ -256,7 +256,6 @@ form{
 }
 
 .mission-statement{
-  /* text-align: center; */
   display: flex;
   line-height: 1.8;
   font-weight: 300;
@@ -302,7 +301,7 @@ form{
 }
 
 #craft{
-  background-color: #F5C947;
+  background-color: #ffa500;
 }
 
 .craft-header{
@@ -400,7 +399,7 @@ form{
 }
 
 #services{
-  background-color: #F5C947;
+  background-color: #ffa500;
 }
 
 .services-header{
@@ -515,11 +514,11 @@ form{
 }
 
 .footer a{
-  color: #F5C947;
+  color: #ffa500;
 }
 
 #contact form{
-  color: #F5C947;
+  color: #ffa500;
 }
 
 #contact .form-control::placeholder {
@@ -528,7 +527,7 @@ form{
 }
 
 #contact input:focus + label {
-  color: #F5C947;
+  color: #ffa500;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid {
@@ -536,7 +535,7 @@ form{
 }
 
 .tel a{
-  color: #F5C947
+  color: #ffa500;
 }
 
 .mapBanner{
@@ -581,5 +580,15 @@ form{
 
 @media (max-width: 500px) {
   .navbar-brand img{
-    max-width: 180px;
+    max-width: 250px;
+    }
+
+  nav .container-fluid{
+    padding: 2px 15px;
+    }
+
+  #craft .container-fluid{
+    padding: 2px 2px;
+  }
+
   }
