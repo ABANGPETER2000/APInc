@@ -500,11 +500,11 @@ form{
 }
 
 .c1{
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 .c2{
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 .footer{
@@ -513,10 +513,6 @@ form{
 }
 
 .footer a{
-  color: #d18858;
-}
-
-#contact form{
   color: #d18858;
 }
 
@@ -601,4 +597,21 @@ form{
   #bannerCarousel .carousel-inner{
   	height:700px;
   }
+
+  #contact .container-fluid{
+    padding: 5% 3%;
+  }
+
+  #services .container-fluid{
+    padding: 5% 3%;
+  }
+
+  .services-body{
+    font-size: 16px;
+  }
+
+  .services-header{
+    font-size: 26px;
+  }
+
   }
