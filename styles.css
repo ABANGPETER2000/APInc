@@ -1,3 +1,17 @@
+
+.topBanner{
+  width: 100%;
+  height: 640px;
+  background: url(Images/web_banner.jpg);
+  background-size: cover;
+}
+
+.menu-tag {
+  font-family: "Raleway", sans-serif;
+  padding-right: 10px;
+  opacity: 0;
+}
+
 #bannerCarousel .carousel-indicators button {
   margin-top: 20px;
   width: 12px;
@@ -27,6 +41,7 @@
 
 nav{
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+  background-color: #f5f5ef;
 }
 
 nav .container-fluid{
@@ -37,25 +52,15 @@ nav .container-fluid{
   max-width: 250px;
 }
 
-.white-section{
-  background-color: #f9f9f9;
+.navbar-toggler-icon{
+  width: 30px !important;
+  height: 30px !important;
 }
 
-.carousel .one {
-  background: url(Images/Banner61.png);
-  background-size: cover;
-  background-position: center;
+body{
+  background-color: #f5f5ef;
 }
-.carousel .two {
-  background: url(Images/Banner41.png);
-  background-size: cover;
-  background-position: center;
-}
-.carousel .three {
-  background: url(Images/Banner71.png);
-  background-size: cover;
-  background-position: center;
-}
+
 .carousel .active.left {
   left:0;
   opacity:0;
@@ -108,29 +113,22 @@ nav .container-fluid{
 }
 
 .dropup{
-  margin-top: 10px;
-  margin-left: 93%;
-  z-index: 100001;
-}
-
-.shade, .shade:hover, .shade:active, .shade:visited{
-  background-color: #d18858 !important;
-  color: black !important;
+  z-index: 10001;
 }
 
 .modal-btn{
   width: 60px;
   height: 60px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 16px 0px rgb(0, 0, 0);
   transition: none !important;
-  background-color: #d18858 !important;
-  color: black !important;
+  background-color: #0b3d56 !important;
+  color: #ff6600 !important;
 }
 
 .el{
     position: fixed;
-    margin-top: -100px;
-    padding-right: 20px;
+    margin-top: 520px;
+    margin-left: 90%;
 }
 
 .el .dropdown-menu{
@@ -142,7 +140,8 @@ nav .container-fluid{
 }
 
 .modal-header{
-  background-color: #d18858;
+  background-color: #0b3d56;
+  color: #ffff;
   padding: 16px 24px 40px;
   position: relative;
   font-weight: 400;
@@ -163,7 +162,7 @@ nav .container-fluid{
 .dropup-caption{
   padding: 12px 15px;
   font-size: 16px;
-  background-color: rgba(245, 201, 71, 0.3);
+  background-color: #9ac1c2;
   font-weight: 400;
   border-radius: 5px;
   font-family: "Source Sans Pro", arial, sans-serif;
@@ -255,6 +254,7 @@ form{
 }
 
 .mission-statement{
+  padding-top: 60px;
   display: flex;
   line-height: 1.8;
   font-weight: 300;
@@ -277,8 +277,16 @@ form{
 }
 
 #craftCarousel{
-  width: 90%;
+  padding-bottom: 50px;
   margin: auto;
+  width: 80%;
+}
+
+.carousel-indicators{
+  margin-bottom: 60px;
+}
+
+.carousel-item img{
 }
 
 .carousel-indicators > .active img {
@@ -300,7 +308,8 @@ form{
 }
 
 #craft{
-  background-color: #d18858;
+  background-color: #0b3d56;
+  color: #ffff;
 }
 
 .craft-header{
@@ -310,8 +319,8 @@ form{
   font-size: 24px;
   font-weight: 400;
   font-family: 'Libre Baskerville', Georgia, serif;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #review{
@@ -385,12 +394,12 @@ form{
 
 .about-column1{
   padding-right: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .about-column2{
   padding-right: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .row img{
@@ -398,15 +407,16 @@ form{
 }
 
 #services{
-  background-color: #d18858;
+  background-color: #0b3d56;
 }
 
 .services-header{
   line-height: 1.25;
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 400;
   font-family: 'Libre Baskerville', Georgia, serif;
+  color: #ffff;
 }
 
 .services-body{
@@ -415,16 +425,97 @@ form{
   font-weight: 400;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
+  color: #ffff;
 }
 
 .services-text{
   padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
   color: rgb(22, 22, 22);
 }
+
+hr{
+  opacity: 1;
+  border-top: 2px solid;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partner_header {
+  padding-top: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.partner_img {
+  padding-top: 70px;
+}
+
+.partners{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+#careers{
+  padding-bottom: 100px;
+}
+
+.careers-header{
+  line-height: 1.25;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.jobList{
+  padding-bottom: 40px;
+}
+
+.jobs{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-spacing: 10px;
+}
+
+.careerModal{
+  text-align: center;
+}
+
+.apply-btn{
+  border-radius: 0px;
+  background-color: #ff6600;
+  padding: 8px 40px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Libre Baskerville", Georgia, serif;
+  }
+
+.apply-btn:hover{
+  background-color: black;
+  color: white;
+  }
+
+#careers .modal-content{
+  height: 100vh;
+  z-index: 100010;
+  z-index: 2;
+  }
 
 #contact{
   background-color: rgb(22, 22, 22);;
@@ -513,7 +604,7 @@ form{
 }
 
 .footer a{
-  color: #d18858;
+  color: #ff6600;
 }
 
 #contact .form-control::placeholder {
@@ -522,7 +613,7 @@ form{
 }
 
 #contact input:focus + label {
-  color: #d18858;
+  color: #0b3d56;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid {
@@ -530,16 +621,17 @@ form{
 }
 
 .tel a{
-  color: #d18858;
+  color: #ff6600;
 }
 
 .mapBanner{
   width: 100%;
 }
 
-.Copyright{
-  padding-top: 50px;
-  padding-bottom: 50px;
+.copyright{
+  background-color: #0b3d56;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
@@ -552,14 +644,48 @@ form{
       padding-right: 7%;
     }
 
-    .dropup{
+    .el{
+      margin-top: 560px;
       margin-left: 85%;
+    }
+
+    .navbar-brand{
+      width: 100vw;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .nav-link{
+      font-size: 13px;
+    }
+
+    .craft-header{
+      font-size: 20px;
+    }
+
+    .menu-tag{
+      opacity: 1;
+      /* margin-right: 100%; */
+    }
+
+    .navbar-toggler{
+      margin-right: 72%;
     }
 
     #about .container-fluid{
       padding-left: 7%;
       padding-right: 7%;
     }
+
+    #craftCarousel{
+      width: 100%;
+      padding-bottom: 60px;
+    }
+
+    .carousel-indicators{
+      margin-bottom: 60px;
+    }
+
     .services-text  {
       padding-left: 4%;
       padding-right: 4%;
@@ -586,7 +712,11 @@ form{
     padding: 2px 2px;
   }
 
-  .dropup{
+  .navbar-toggler{
+    margin-right: 70%;
+  }
+
+  .el{
     margin-left: 80%;
   }
 
