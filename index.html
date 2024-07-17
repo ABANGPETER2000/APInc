@@ -18,28 +18,35 @@
 
     <section id="home">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <div class="">
               <img src="Images/Afriknaija prodoction inc logo_2.png" alt="">
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-tag">Menu</span>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" href="#home">HOME</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#craft">GALLERY</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" href="#about">ABOUT</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" href="#services">SERVICES</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#careers">CAREERS</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" href="#contact">CONTACT US</a>
               </li>
             </ul>
@@ -47,43 +54,7 @@
         </div>
       </nav>
 
-
-
-      <div id="bannerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active one">
-            </div>
-            <div class="carousel-item two">
-            </div>
-            <div class="carousel-item three">
-            </div>
-
-            <div class="carousel-caption">
-              <div class="hero">
-
-                <p class="mobile">+1 (437) 237-3702</p>
-
-                <div class="hero-text">
-                  <span>Precision in Construction, <br>Excellence in Execution.</span>
-                </div>
-
-                <div class="hero-text-lower">
-                  <span>Expert building contractor providing quality construction services</span>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
+      <div class="topBanner">
         <div class="dropup">
           <div class="el">
 
@@ -96,7 +67,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <span>Afrik-Naija Production Inc</span>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <p class="dropup-caption">Hi! Let us know how we can help and we’ll respond shortly.</p>
@@ -139,22 +110,20 @@
 
         </div>
       </div>
+      </div>
+
 
     </section>
 
-    <section id="mission" class="white-section">
+    <section id="mission">
 
       <div class="container-fluid">
-
-        <div class="mission-header">
-          <span>AFRIK-NAIJA PRODUCTION INC</span>
-        </div>
 
         <div class="row mission-statement">
 
           <div class="mission-column1 col-lg-6 col-md-12 col-sm-12">
 
-            <img src="Images/Banner3.png" alt="">
+            <img src="Images/trac.jpg" alt="">
             <div class="mission-subheader">
                 <span>Our Mission</span>
             </div>
@@ -222,103 +191,108 @@
 
     <section id="craft">
 
-      <div class="container-fluid">
-        <div class="craft-header">
-          <span>
-            Precision Engineering, Timeless Craftsmanship: Building a Legacy of Excellence.
-          </span>
-        </div>
+      <div class="craft-header container-fluid">
+        <span>
+          Precision Engineering, Timeless Craftsmanship: Building a Legacy of Excellence.
+        </span>
+      </div>
 
 
-          <!-- Carousel wrapper -->
-          <div id="craftCarousel" data-bs-carousel-init class="carousel slide">
-            <!-- Slides -->
-            <div class="carousel-inner mb-5">
-              <div class="carousel-item active">
-                <img src="Images/craft2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Images/craft3.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Images/craft4.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Images/craft1.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Images/craft6.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Images/craft7.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <!-- Slides -->
+      <div id="craftCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
 
-            <!-- Controls -->
-            <button data-bs-button-init class="carousel-control-prev" type="button" data-bs-target="#craftCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button data-bs-button-init class="carousel-control-next" type="button" data-bs-target="#craftCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-
-            <!-- Controls -->
-
-            <!-- Thumbnails -->
-            <div class="carousel-indicators" style="margin-bottom: -20px;">
-              <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1" style="width: 100px;">
-                <img class="d-block w-100" src="Images/craft2.png" class="img-fluid">
-              </button>
-              <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="1"
-                aria-label="Slide 2" style="width: 100px;">
-                <img class="d-block w-100" src="Images/craft3.png" class="img-fluid">
-              </button>
-              <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="2"
-                aria-label="Slide 3" style="width: 100px;">
-                <img class="d-block w-100" src="Images/craft4.png" class="img-fluid">
-              </button>
-              <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="3"
-                aria-label="Slide 4" style="width: 100px;">
-                <img class="d-block w-100" src="Images/craft1.png" class="img-fluid">
-              </button>
-              <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="4"
-                aria-label="Slide 5" style="width: 100px;">
-                <img class="d-block w-100" src="Images/craft6.png" class="img-fluid">
-              </button>
-              <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="5"
-                aria-label="Slide 6" style="width: 100px;">
-                <img class="d-block w-100" src="Images/craft7.png" class="img-fluid">
-              </button>
-            </div>
-            <!-- Thumbnails -->
+        <div class="carousel-inner mb-5">
+          <div class="carousel-item active">
+            <img src="Images/craft2.png" class="d-block w-100" alt="...">
           </div>
-<!-- Carousel wrapper -->
+          <div class="carousel-item">
+            <img src="Images/craft3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/craft4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/craft6.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/craft7.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/img1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/img3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/img5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/img6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
 
+        <div class="carousel-indicators">
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1" style="width: 100px;">
+            <img class="d-block w-100" src="Images/craft2.png" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="1"
+            aria-label="Slide 2" style="width: 100px;">
+            <img class="d-block w-100" src="Images/craft3.png" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="2"
+            aria-label="Slide 3" style="width: 100px;">
+            <img class="d-block w-100" src="Images/craft4.png" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="3"
+            aria-label="Slide 4" style="width: 100px;">
+            <img class="d-block w-100" src="Images/craft6.png" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="4"
+            aria-label="Slide 5" style="width: 100px;">
+            <img class="d-block w-100" src="Images/craft7.png" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="5"
+            aria-label="Slide 6" style="width: 100px;">
+            <img class="d-block w-100" src="Images/img1.jpg" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="6"
+            aria-label="Slide 6" style="width: 100px;">
+            <img class="d-block w-100" src="Images/img3.jpg" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="7"
+            aria-label="Slide 6" style="width: 100px;">
+            <img class="d-block w-100" src="Images/img5.jpg" class="img-fluid">
+          </button>
+          <button  type="button" data-bs-button-init data-bs-target="#craftCarousel" data-bs-slide-to="8"
+            aria-label="Slide 6" style="width: 100px;">
+            <img class="d-block w-100" src="Images/img6.jpg" class="img-fluid">
+          </button>
+        </div>
       </div>
+
+      <!-- <div id="bannerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active one">
+            </div>
+            <div class="carousel-item two">
+            </div>
+            <div class="carousel-item three">
+            </div
+
+          </div>
+
+        </div>
+
+      </div> -->
 
     </section>
 
-    <section id="review">
-
-      <div class="container-fluid review-text">
-
-        <div class="review-header">
-          <span>Don't just take our word for it</span>
-        </div>
-
-        <div class="review-body">
-          <span>Reviews coming soon!</span>
-        </div>
-
-      </div>
-
-    </section>
-
-    <section id="about" class="white-section">
+    <section id="about">
 
       <div class="container-fluid about-text">
 
@@ -366,7 +340,7 @@
             </p>
           </div>
           <div class="about-column2 col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-1 order-sm-1 order-1">
-            <img src="Images/Banner4.png" alt="">
+            <img src="Images/hse1.jpg" alt="">
           </div>
 
         </div>
@@ -374,7 +348,7 @@
         <div class="row">
 
           <div class="about-column1 col-lg-6 col-md-6 col-sm-12">
-            <img src="Images/Banner1.png" alt="">
+            <img src="Images/img9.jpg" alt="">
           </div>
           <div class="about-column2 col-lg-6 col-md-6 col-sm-12">
             <div class="about-subheader">
@@ -408,11 +382,148 @@
         <div class="container-fluid services-body">
           <p>
             <span>
-              We offer full-service general contracting, specializing in site development and fencing for private, commercial, and municipal projects.
-              Our expertise includes project management, sound barrier walls, fencing, carpentry, site preparation, earthworks, civil infrastructure,
-              parks, hardscape, and softscape.
+              We specialize in complete construction services for any project, from homes to businesses and public spaces.  Our expertise covers everything from laying
+              the groundwork to building beautiful landscapes and sound barriers.  Whether you need secure fencing or top-notch carpentry,civil infrastructure, parks,
+              hardscape, softscape, fencing, carpentry, sound barrier walls, and site preparation, our team delivers.
+              Let's turn your vision into reality!
             </span>
           </p>
+
+          <div class="partners">
+            <hr>
+
+            <div class="partner_header">
+              <span>OUR PARTNERS</span>
+            </div>
+
+            <div class="row partner_img">
+
+              <div class="col-4">
+                <a href="https://www.afconstruction.ca/" target="_blank">
+                <img src="Images/AFC_logo.png" alt="">
+                </a>
+              </div>
+
+              <div class="col-4">
+
+              </div>
+
+              <div class="col-4">
+                <a href="https://totalfenceinc.ca/" target="_blank">
+                <img src="Images/TF_logo.png" alt="">
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="careers">
+
+      <div class="container-fluid">
+
+        <p class="careers-header">
+          <span>
+            JOB OPENINGS
+          </span>
+        </p>
+
+        <div class="row px-5 gy-4 jobList">
+
+          <div class="jobs border col-12">
+            LEAD OPERATOR
+          </div>
+
+          <div class="jobs border col-12">
+            EQUIPMENT OPERATOR
+          </div>
+
+          <div class="jobs border col-12">
+            LABOURER
+          </div>
+
+          <div class="jobs border col-12">
+            PERSONAL ASSISTANT/SECRETARY
+          </div>
+
+        </div>
+
+        <div class="careerModal">
+
+          <button type="button" class="btn btn-secondary apply-btn" data-bs-toggle="modal" data-bs-target="#careerBackdrop">
+            Apply Now
+          </button>
+
+          <!-- <div class="modal fade" id="careerBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span>Afrik-Naija Production Inc</span>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="dropup-caption">Hi! Let us know how we can help and we’ll respond shortly.</p>
+
+                  <form action="https://formsubmit.co/afrik9jashow@gmail.com" method="POST" enctype="text/plain" class="px-4 py-3 needs-validation" novalidate>
+                    <div class="form-box">
+                      <label for="floatingName">Name*</label>
+                      <input type="name" class="form-control border-0 border-bottom" id="floatingName" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Please fill in this required field
+                      </div>
+                    </div>
+
+                    <div class="form-box mb-3">
+                      <label for="floatingEmail">Email*</label>
+                      <input type="email" class="form-control border-0 border-bottom" id="floatingEmail" placeholder="" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid email address.
+                      </div>
+
+                    </div>
+                    <div class="mb-3">
+                      <textarea class="form-control dropup-textbox border-0 border-bottom" id="exampleFormControlTextarea1" placeholder="How can we help?*" rows="3" required></textarea>
+                      <div class="invalid-feedback">
+                        Please fill in this required field
+                      </div>
+                    </div>
+
+                    <div class="submit-div">
+                      <button type="submit" class="btn btn-outline-secondary send-btn">Send</button>
+                    </div>
+
+                  </form>
+
+                </div>
+
+              </div>
+            </div>
+          </div> -->
+
+      </div>
+
+      </div>
+
+
+
+    </section>
+
+    <section id="review">
+
+      <div class="container-fluid review-text">
+
+        <div class="review-header">
+          <span>Don't just take our word for it</span>
+        </div>
+
+        <div class="review-body">
+          <span>Reviews coming soon!</span>
         </div>
 
       </div>
@@ -492,7 +603,7 @@
 
           <p>
             We stay in constant communication with our customers until the job is done. To get a free quote, or if you have questions or
-            special requests, just drop us a line.
+            special requests, give us a call.
           </p>
 
           <div class="contact-subheader1">
@@ -521,12 +632,7 @@
 
       </div>
 
-      <div >
-      <iframe class="mapBanner" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.2530640575833!2d-79.52553932498493!3d43.767605445025595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2fd638570507%3A0x3fcd3ccaf03b76d7!2s86%20Fletcherdon%20Crescent%2C%20North%20York%2C%20ON%20M3N%201S3%2C%20Canada!5e0!3m2!1sen!2sng!4v1716560251244!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-      </div>
-
-      <div class="Copyright">
+      <div class="copyright">
         <p>
           Copyright © 2024 Afrik-Naija Production Inc - All Rights Reserved.
         </p>
