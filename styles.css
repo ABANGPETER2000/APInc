@@ -1,17 +1,3 @@
-
-.topBanner{
-  width: 100%;
-  height: 640px;
-  background: url(Images/web_banner.jpg);
-  background-size: cover;
-}
-
-.menu-tag {
-  font-family: "Raleway", sans-serif;
-  padding-right: 10px;
-  opacity: 0;
-}
-
 #bannerCarousel .carousel-indicators button {
   margin-top: 20px;
   width: 12px;
@@ -39,6 +25,10 @@
   width: 100%; height: 100%;
 }
 
+body{
+  background-color: #f5f5ef;
+}
+
 nav{
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
   background-color: #f5f5ef;
@@ -52,15 +42,25 @@ nav .container-fluid{
   max-width: 250px;
 }
 
-.navbar-toggler-icon{
-  width: 30px !important;
-  height: 30px !important;
-}
-
-body{
+.white-section{
   background-color: #f5f5ef;
 }
 
+.carousel .one {
+  background: url(Images/hse2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.carousel .two {
+  background: url(Images/Banner41.png);
+  background-size: cover;
+  background-position: center;
+}
+.carousel .three {
+  background: url(Images/img16.jpg);
+  background-size: cover;
+  background-position: center;
+}
 .carousel .active.left {
   left:0;
   opacity:0;
@@ -111,9 +111,25 @@ body{
   font-family: 'Source Sans Pro', arial, sans-serif;
   line-height: 1.2;
 }
+/*
+.el{
+  position: fixed;
+  margin-top: -100px;
+  padding-right: 20px;
+}
 
 .dropup{
-  z-index: 10001;
+  margin-top: 10px;
+  margin-left: 93%;
+}
+
+.modal-dialog{
+  z-index: 100001;
+}
+
+.shade, .shade:hover, .shade:active, .shade:visited{
+  background-color: #d18858 !important;
+  color: black !important;
 }
 
 .modal-btn{
@@ -125,18 +141,8 @@ body{
   color: #ff6600 !important;
 }
 
-.el{
-    position: fixed;
-    margin-top: 520px;
-    margin-left: 90%;
-}
-
-.el .dropdown-menu{
-  padding-top: 0px;
-}
-
 .modal-content{
-  z-index: 2;
+  z-index: 10001;
 }
 
 .modal-header{
@@ -177,7 +183,7 @@ body{
 
 .dropup-textbox{
   height: 150px;
-}
+} */
 
 form{
   font-family: "Raleway", sans-serif;
@@ -254,7 +260,6 @@ form{
 }
 
 .mission-statement{
-  padding-top: 60px;
   display: flex;
   line-height: 1.8;
   font-weight: 300;
@@ -277,16 +282,8 @@ form{
 }
 
 #craftCarousel{
-  padding-bottom: 50px;
+  width: 90%;
   margin: auto;
-  width: 80%;
-}
-
-.carousel-indicators{
-  margin-bottom: 60px;
-}
-
-.carousel-item img{
 }
 
 .carousel-indicators > .active img {
@@ -319,7 +316,7 @@ form{
   font-size: 24px;
   font-weight: 400;
   font-family: 'Libre Baskerville', Georgia, serif;
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 60px;
 }
 
@@ -379,8 +376,8 @@ form{
   font-weight: 400;
   word-wrap: break-word;
   font-family: 'Libre Baskerville', Georgia, serif;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .about-subheader{
@@ -394,12 +391,12 @@ form{
 
 .about-column1{
   padding-right: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .about-column2{
   padding-right: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .row img{
@@ -473,7 +470,7 @@ hr{
   font-weight: 400;
   font-family: 'Libre Baskerville', Georgia, serif;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 70px;
 }
 
@@ -491,14 +488,15 @@ hr{
   border-spacing: 10px;
 }
 
-.careerModal{
+.careerButton{
   text-align: center;
 }
 
 .apply-btn{
+  color: white;
   border-radius: 0px;
   background-color: #ff6600;
-  padding: 8px 40px;
+  padding: 8px 30px;
   text-align: center;
   font-weight: 400;
   letter-spacing: 2px;
@@ -508,14 +506,16 @@ hr{
 
 .apply-btn:hover{
   background-color: black;
-  color: white;
   }
 
 #careers .modal-content{
-  height: 100vh;
-  z-index: 100010;
-  z-index: 2;
-  }
+  background-color: #f5f5ef !important;
+}
+
+#careers form{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 #contact{
   background-color: rgb(22, 22, 22);;
@@ -569,6 +569,7 @@ hr{
   font-weight: 400;
   font-family: 'Libre Baskerville', Georgia, serif;
   padding-bottom: 50px;
+  padding-top: 60px;
 }
 
 .contact-subheader{
@@ -604,7 +605,7 @@ hr{
 }
 
 .footer a{
-  color: #ff6600;
+  color: #d18858;
 }
 
 #contact .form-control::placeholder {
@@ -613,7 +614,7 @@ hr{
 }
 
 #contact input:focus + label {
-  color: #0b3d56;
+  color: #d18858;
 }
 
 .form-control.is-valid, .was-validated .form-control:valid {
@@ -621,11 +622,7 @@ hr{
 }
 
 .tel a{
-  color: #ff6600;
-}
-
-.mapBanner{
-  width: 100%;
+  color: #d18858;
 }
 
 .copyright{
@@ -639,65 +636,62 @@ hr{
 }
 
 @media (max-width: 767px) {
-    .container-fluid{
-      padding-left: 7%;
-      padding-right: 7%;
+  .container-fluid{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .nav-link{
+    font-size: 14px;
+    margin-bottom: -5px;
+  }
+
+  .dropup{
+    margin-left: 85%;
+  }
+
+  #about .container-fluid{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .services-text  {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  #craftCarousel{
+    width: 100%;
+  }
+
+  .carousel-caption{
+    bottom: -2.5rem;
+  }
+
+  .hero-text {
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+
+  .jobs{
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .apply-btn{
+    padding: 5px 20px;
+    font-size: 12px;
     }
 
-    .el{
-      margin-top: 560px;
-      margin-left: 85%;
-    }
+  .careers-header{
+    font-size: 26px;
+    padding-top: 85px;
+    padding-bottom: 40px;
+  }
 
-    .navbar-brand{
-      width: 100vw;
-      text-align: center;
-      padding-bottom: 10px;
-    }
-
-    .nav-link{
-      font-size: 13px;
-    }
-
-    .craft-header{
-      font-size: 20px;
-    }
-
-    .menu-tag{
-      opacity: 1;
-      /* margin-right: 100%; */
-    }
-
-    .navbar-toggler{
-      margin-right: 72%;
-    }
-
-    #about .container-fluid{
-      padding-left: 7%;
-      padding-right: 7%;
-    }
-
-    #craftCarousel{
-      width: 100%;
-      padding-bottom: 60px;
-    }
-
-    .carousel-indicators{
-      margin-bottom: 60px;
-    }
-
-    .services-text  {
-      padding-left: 4%;
-      padding-right: 4%;
-    }
-
-    .carousel-caption{
-      bottom: -2.5rem;
-    }
-    .hero-text {
-      font-size: 45px;
-      letter-spacing: 2px;}
-    }
+  .contact-header{
+    padding-top: 80px;
+  }
 
 @media (max-width: 500px) {
   .navbar-brand img{
@@ -712,11 +706,7 @@ hr{
     padding: 2px 2px;
   }
 
-  .navbar-toggler{
-    margin-right: 70%;
-  }
-
-  .el{
+  .dropup{
     margin-left: 80%;
   }
 
@@ -742,6 +732,7 @@ hr{
 
   .services-header{
     font-size: 26px;
+    padding-top: 80px;
   }
 
   }
