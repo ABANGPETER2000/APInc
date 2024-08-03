@@ -34,6 +34,12 @@ nav{
   background-color: #f5f5ef;
 }
 
+.navigation{
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
 nav .container-fluid{
   padding: 2px 50px;
 }
@@ -646,6 +652,10 @@ hr{
     margin-bottom: -5px;
   }
 
+  .navigation{
+    position: absolute;
+  }
+
   .dropup{
     margin-left: 85%;
   }
@@ -654,6 +664,7 @@ hr{
     padding-left: 7%;
     padding-right: 7%;
   }
+
   .services-text  {
     padding-left: 4%;
     padding-right: 4%;
@@ -661,6 +672,14 @@ hr{
 
   #craftCarousel{
     width: 100%;
+  }
+
+  .carousel-control-prev{
+    height: 10%;
+  }
+
+  .carousel-control-next{
+    height: 10%;
   }
 
   .carousel-caption{
